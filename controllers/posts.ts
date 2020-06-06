@@ -1,5 +1,6 @@
-import { Post } from "../types.ts";
+import { Post } from "./types.ts";
 import { v4 } from "https://deno.land/std/uuid/mod.ts";
+
 // Dummy data
 let posts: Post[] = [
   {
